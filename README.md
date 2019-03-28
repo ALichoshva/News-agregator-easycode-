@@ -1,4 +1,4 @@
-<h2><a target="blank" href="https://news-app-agregator.herokuapp.com/">Link to the News App Agregator</a></h2>
+<h2><a href="https://news-app-agregator.herokuapp.com/">Link to the News App Agregator</a></h2>
 
 <h4>Description</h4>
 This is the training project, on which I was learning how to create news app agregator.
