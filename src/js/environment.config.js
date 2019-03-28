@@ -1,4 +1,4 @@
-class ENV {
+export class ENV {
     static get apiUrl() {
         return  'https://newsapi.org/v2';
     }

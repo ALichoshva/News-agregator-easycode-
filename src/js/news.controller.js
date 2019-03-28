@@ -1,3 +1,6 @@
+import { NewsService } from "../js/news.service";
+import { NewsUI } from "../js/news.ui.service";
+
 const newsService = new NewsService();
 const uiService = new NewsUI();
 

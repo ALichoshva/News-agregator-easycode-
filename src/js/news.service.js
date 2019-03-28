@@ -1,6 +1,10 @@
+import { ENV } from "../js/environment.config";
+import { HttpClient } from "../js/httpClient";
+
+
 const httpClient = new HttpClient();
 
-class NewsService {
+export class NewsService {
     /**
      * 
      * @param {String} category 

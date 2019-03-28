@@ -7,8 +7,18 @@
     <title>News Agregator</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
 
+    <style type="text/css">
+        .custom-error {
+            color: white;
+            border: 1px solid rgb(146, 1, 1);
+            background-color: red;
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
     <main>
@@ -67,11 +77,5 @@
             $('select').formSelect();
         });
     </script>
-
-    <script src="js/environment.config.js"></script>
-    <script src="js/httpClient.js"></script>
-    <script src="js/news.service.js"></script>
-    <script src="js/news.ui.service.js"></script>
-    <script src="js/news.controller.js"></script>
 </body>
 </html>

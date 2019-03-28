@@ -1,4 +1,4 @@
-class HttpClient {
+export class HttpClient {
     /**
      * 
      * @param {String} url 

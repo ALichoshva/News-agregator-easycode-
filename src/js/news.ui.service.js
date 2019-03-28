@@ -1,4 +1,4 @@
-class NewsUI {
+export class NewsUI {
     constructor() {
         this.newsContainer = document.querySelector('.news-wrap .row');
     }
