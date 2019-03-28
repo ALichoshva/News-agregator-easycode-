@@ -34,7 +34,7 @@ function onSelectChange() {
                 let rowElem = document.querySelector('.news-wrap').querySelector('.row')
                 rowElem.insertAdjacentHTML('afterbegin', ` 
                     <div class="custom-error">
-                        <p>Ни одной новости не найде</p>
+                        <p>Ни одной новости не найдено</p>
                     </div>
                 `)
 
